@@ -1,0 +1,552 @@
+.suriya{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.nandhu{
+      list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.parkavi{
+     list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.deva{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+     top: 0;
+    z-index: 10;
+    background-color:whitesmoke;
+}
+.a{
+    padding: 5px;
+   
+}
+.suriya{
+    position: relative;
+    right: 100px;
+}
+.b{
+    padding: 10px;
+}
+.parkavi{
+    position: relative;
+    left: 30px;
+}
+.c{
+    padding:10px ;
+}
+.fri{
+    color: red;
+    font-size: 20px;
+    font-weight: 900;
+}
+.d:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease;
+}
+
+.tue:hover{
+     background-color: gainsboro;
+     border-radius: 50px;
+}
+.nandhu a{
+    text-decoration: none;
+  color: inherit;
+}
+.mon:hover{
+     transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+.animal{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    
+}
+.mon{
+    font-weight: 900;
+}
+.fr{
+    font-weight: 900;
+}
+.tue{
+    font-weight: 900;
+}
+.ti{
+    font-weight: 900;
+}
+
+.tiger{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+   
+    
+}
+.on{
+    position: relative;
+    bottom: 60px;
+    z-index: -1;
+    border-radius: 20px;
+}
+.li{
+    position: relative;
+    right: 30px;
+}
+.lio{
+    position: relative;
+    left: 20px;
+}
+.why{
+    display: flex;
+  
+    gap:20px;
+}
+.oo:hover{
+    transform: scale(1.1); 
+    transition: transform 0.3s ease;
+}
+
+
+.free {
+  animation: zoomEffect 1s ease-out forwards;
+}
+
+@keyframes zoomEffect {
+  0% {
+    transform: scale(2); /* original size */
+  }
+  100% {
+    transform: scale(1); /* zoomed 10% */
+  }
+}
+.d {
+  animation: zoomEffect 1s ease-out forwards;
+}
+
+@keyframes zoomEffect {
+  0% {
+    transform: scale(2); /* original size */
+  }
+  100% {
+    transform: scale(1); /* zoomed 10% */
+  }
+}
+.swetha{
+    position: relative;
+    bottom: 60px;
+    margin: 10px;
+}
+.swe{
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+.hod{
+    list-style-type: none;
+    display: flex;
+}
+.second{
+list-style-type: none;
+}
+.weds{
+       list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mani{
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+.j{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.vi{
+    position: relative;
+    right: 35px;
+}
+.vii{
+      position: relative;
+      right: 35px;
+}
+.ji{
+     position: relative;
+      right: 35px;
+        font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.end{
+    display: flex;
+    justify-content: space-evenly;
+}
+.final{
+    list-style-type: none;
+    padding: 10px;
+    gap: 5px;
+}
+.win{
+      font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  padding: 12px 15px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  background: white;
+  width: fit-content;
+  gap: 10px;
+  position: relative;
+  left: 300px;
+}
+
+.part {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown {
+  position: relative;
+  padding: 5px 10px;
+  cursor: pointer;
+  min-width: 100px;
+}
+
+.options {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  z-index: 2;
+}
+
+.options div {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.options div:hover {
+  background-color: #f2f2f2;
+}
+
+.input-box {
+  padding: 8px;
+  border: none;
+  background: transparent;
+  font-size: 14px;
+}
+
+.divider {
+  width: 1px;
+  height: 30px;
+  background-color: #ccc;
+}
+
+.search-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.search-btn i {
+  color: red;
+  font-size: 20px;
+}
+.suriya{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.nandhu{
+      list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.parkavi{
+     list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.deva{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+     top: 0;
+    z-index: 10;
+    background-color: white;
+}
+.a{
+    padding: 5px;
+   
+}
+.suriya{
+    position: relative;
+    right: 100px;
+}
+.b{
+    padding: 10px;
+}
+.parkavi{
+    position: relative;
+    left: 30px;
+}
+.c{
+    padding:10px ;
+}
+.fri{
+    color: red;
+    font-size: 20px;
+    font-weight: 900;
+}
+.d:hover{
+    transform: scale(1.5); 
+    transition: transform 0.3s ease;
+}
+
+.tue:hover{
+     background-color: gainsboro;
+     border-radius: 50px;
+}
+.nandhu a{
+    text-decoration: none;
+  color: inherit;
+}
+.mon:hover{
+     transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+.animal{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    
+}
+.mon{
+    font-weight: 900;
+}
+.fr{
+    font-weight: 900;
+}
+.tue{
+    font-weight: 900;
+}
+.ti{
+    font-weight: 900;
+}
+
+.tiger{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+   
+    
+}
+.on{
+    position: relative;
+    bottom: 60px;
+    z-index: -1;
+    border-radius: 20px;
+}
+.li{
+    position: relative;
+    right: 30px;
+}
+.lio{
+    position: relative;
+    left: 20px;
+}
+.why{
+    display: flex;
+  
+    gap:20px;
+}
+.oo:hover{
+    transform: scale(1.1); 
+    transition: transform 0.3s ease;
+}
+
+
+.free {
+  animation: zoomEffect 1s ease-out forwards;
+}
+
+@keyframes zoomEffect {
+  0% {
+    transform: scale(2); /* original size */
+  }
+  100% {
+    transform: scale(1); /* zoomed 10% */
+  }
+}
+.d {
+  animation: zoomEffect 1s ease-out forwards;
+}
+
+@keyframes zoomEffect {
+  0% {
+    transform: scale(2); /* original size */
+  }
+  100% {
+    transform: scale(1); /* zoomed 10% */
+  }
+}
+.swetha{
+    position: relative;
+    bottom: 60px;
+    margin: 10px;
+}
+.swe{
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+.hod{
+    list-style-type: none;
+    display: flex;
+}
+.second{
+list-style-type: none;
+}
+.weds{
+       list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mani{
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+.j{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.vi{
+    position: relative;
+    right: 35px;
+}
+.vii{
+      position: relative;
+      right: 35px;
+}
+.ji{
+     position: relative;
+      right: 35px;
+        font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.end{
+    display: flex;
+    justify-content: space-evenly;
+}
+.final{
+    list-style-type: none;
+    padding: 10px;
+    gap: 5px;
+}
+.win{
+      font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  padding: 12px 15px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  background: white;
+  width: fit-content;
+  gap: 10px;
+  position: relative;
+  left: 300px;
+}
+
+.part {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown {
+  position: relative;
+  padding: 5px 10px;
+  cursor: pointer;
+  min-width: 100px;
+}
+
+.options {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  z-index: 2;
+}
+
+.options div {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.options div:hover {
+  background-color: #f2f2f2;
+}
+
+.input-box {
+  padding: 8px;
+  border: none;
+  background: transparent;
+  font-size: 14px;
+}
+
+.divider {
+  width: 1px;
+  height: 30px;
+  background-color: #ccc;
+}
+
+.search-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.search-btn i {
+  color: red;
+  font-size: 20px;
+}
+.paru{
+  background-color:whitesmoke;
+}
+
+
+
+
+
